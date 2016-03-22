@@ -66,4 +66,7 @@ ul{
 }
 h2 {
 	text-transform: uppercase;
+	letter-spacing: .5em;
+	color: #e65100;
+	margin-bottom: -10px;
 }
