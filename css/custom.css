@@ -2,18 +2,23 @@ body {
 	background-color: none;
 	line-height: 2;
 	color: #777;
-	letter-spacing: 0.03em;
+	letter-spacing: 0.01em;
 	font-family: 'Muli', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
+/*
 .introduction{
 	background-image: url('../images/hero4.jpg');
-	background-position: absolute;
-	background-position-y: 0%;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	height: 71rem;
 	overflow: auto;
+} */
+.top-navigation > .content {
+	width: 85%;
+}
+.introduction img{
+	width: 100%;
 }
 .introduction .content{
 	width:60rem;
@@ -34,7 +39,7 @@ ul{
 	height: 4.375rem;
 }
 .content {
-	width: 85%;
+	width: 65%;
 	padding: 0 0.938rem;
 	margin: 0 auto;
 	min-width: 37.5rem;
@@ -59,10 +64,6 @@ ul{
 }
 .about {
 	margin-top: 5rem;
-	height: 30em;
-}
-.about > .content {
-	width: 65%;
 }
 h2 {
 	text-transform: uppercase;
@@ -70,3 +71,41 @@ h2 {
 	color: #e65100;
 	margin-bottom: -10px;
 }
+.about h1 {
+	font-family: 'playfair display', serif;
+	font-weight: 700;
+	text-align: center;
+	font-size: 5rem;
+	line-height: 7rem;
+	margin: 10rem 0;
+	color: #78909c;
+}
+.projects {
+	margin-top: 5em;
+}
+.card {
+	background-color: #eee;
+	height: 300px;
+	margin: 3rem 0;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.2s ease-in-out;
+}
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.card-1 {
+	background-image: url('../images/card-1.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.card-2 {
+	background-image: url('../images/card-2.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.card-3 {
+	background-image: url('../images/card-3.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
